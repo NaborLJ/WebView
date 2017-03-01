@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity
         setSupportActionBar(toolbar);
 
         WebView myWebView = (WebView) this.findViewById(R.id.webView);
-        myWebView.loadUrl("https://amatellanes.wordpress.com/");
+        myWebView.loadUrl("https://chat-naborlj.c9users.io/");
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
